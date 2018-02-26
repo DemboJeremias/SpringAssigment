@@ -28,4 +28,15 @@ public class Stock {
         this.stock = stock;
     }
     
+    public void addStock(Product product){
+        stock.add(product);
+    }
+    
+    public void addStock(List<Product> products){
+        stock.addAll(stock);
+    }
+    
+    public void updateQuantity(Product product, int quantity){
+        product.setAmount(quantity);
+    }
 }

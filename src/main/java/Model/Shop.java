@@ -76,4 +76,21 @@ public class Shop {
     public static Shop getIntance(){
         return instance;
     }
+
+    public static Shop getInstance() {
+        return instance;
+    }
+
+    public Stock getStock() {
+        return stock;
+    }
+
+    public static void setInstance(Shop instance) {
+        Shop.instance = instance;
+    }
+
+    public void setStock(Stock stock) {
+        this.stock = stock;
+    }
+    
 }
